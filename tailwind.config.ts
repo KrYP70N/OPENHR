@@ -1,17 +1,17 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  important: 'body',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  important: 'body',
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#3D44D7',
+        secondary: '#7174C5'
       },
     },
   },
