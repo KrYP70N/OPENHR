@@ -5,7 +5,7 @@ import React from 'react'
 export default function AppLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body>
+      <body className='text-slate-600'>
         <TRPCProvider>
           {children}
         </TRPCProvider>
